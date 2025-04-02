@@ -128,7 +128,7 @@ GROUP
 ORDER BY 1
 ```
 
-7. **Write a SQL query to calculate the average sale for each month. Find out best selling month in each year**:
+7. **Write a SQL query to calculate the average sale for each month. Find out best selling month in each year**: (imp)
 ```sql
 SELECT 
        year,
@@ -167,7 +167,7 @@ FROM retail_sales
 GROUP BY category
 ```
 
-10. **Write a SQL query to create each shift and number of orders (Example Morning <12, Afternoon Between 12 & 17, Evening >17)**:
+10. **Write a SQL query to create each shift and number of orders (Example Morning <12, Afternoon Between 12 & 17, Evening >17)**: (imp)
 ```sql
 WITH hourly_sale
 AS
